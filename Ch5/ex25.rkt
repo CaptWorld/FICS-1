@@ -2,7 +2,7 @@
 ;; about the language level of this file in a form that our tools can easily process.
 #reader(lib "htdp-beginner-abbr-reader.ss" "lang")((modname ex25) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t constructor repeating-decimal #f #t none #f () #f)))
 (require racket/set)
-; using this header to test the function, comb, properly
+; using this header to test the function, perms, properly
 
 ; perms: (Listof Any) -> (Listof (Listof Any))
 ; produces: produces a list of all permutations of a list lst of distinct values
